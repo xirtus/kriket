@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# --- OS / editor junk ---
+._*
+Thumbs.db
+*.swp
+# --- Secrets (keep local) ---
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+!certs/*.example
+# --- JavaScript / Node ---
+node_modules/
+.next/
+.turbo/
+.nuxt/
+dist/
+build/
+*.tsbuildinfo
+# --- Python ---
+.venv/
+venv/
+venv_*/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+# --- Rust ---
+target/
+target_debug/
+# --- Swift / Xcode ---
+.build/
+.swiftpm/
+DerivedData/
+xcuserdata/
+# --- Build artifacts / installers ---
+*.dmg
+*.AppImage
+dist_electron/
+# --- game engines / heavy caches ---
+Library/
+Temp/
+Logs/
+UserSettings/
+*.unitypackage
+*.blend1
+artifacts/
+devhistory/
+# --- model weights ---
+safetensors/
+models/
+*.safetensors
+*.ckpt
+*.sft
