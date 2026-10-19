@@ -1,5 +1,7 @@
 # KRIKET — early build
 
+![KRIKET v1 bowling view](docs/screenshot.jpg)
+
 The first playable version of **KRIKET**, a browser cricket simulation built on
 Three.js. Bat, bowl, field, and run with a physics-driven ball.
 
